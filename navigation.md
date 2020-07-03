@@ -2,6 +2,7 @@
 
 - [Maurice Fallon: Navigation Systems with Quadruped robots [ICRA 2020 WS - Legged Robots]](https://www.youtube.com/watch?v=7B1swCwRPik&feature=emb_logo)
 - [Building a Legged Robot with ROS (Péter Fankhauser)!!!](https://www.youtube.com/watch?v=5BkoGug8HhE)
+- [Péter Fankhauser – Doctoral Thesis Presentation](https://www.youtube.com/watch?v=04aXqKR2HSc&list=PLE-BQwvVGf8F902rN1-uTxrWYqU1oWGIr&index=2&t=0s)
   - Navigation 导航功能
     1. Laser Range Data
     2. Localization
