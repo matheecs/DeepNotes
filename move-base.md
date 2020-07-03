@@ -253,3 +253,5 @@ Header header
 geometry_msgs/Point32[] points  #Array of 3d points
 ChannelFloat32[] channels       #Each channel should have the same number of elements as points array, and the data in each channel should correspond 1:1 with each point
 ```
+
+[[costmap_2d]]
