@@ -18,3 +18,6 @@
 - OpenRave
 
 ![](figures/api_top_level.png)
+
+- [pointcloud_to_laserscan](http://wiki.ros.org/pointcloud_to_laserscan)
+  - > Converts a 3D Point Cloud into a **2D laser scan**

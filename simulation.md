@@ -4,7 +4,7 @@
 - V-REP
 - [Gym](https://gym.openai.com)
   - > Gym is a toolkit for developing and comparing reinforcement learning algorithms. It supports teaching agents everything from walking to playing games like Pong or Pinball.
-
+- [QuadrupedSim](https://github.com/paulyang1990/QuadrupedSim)
 - [Learning Agile Robotic Locomotion Skills by Imitating Animals](https://xbpeng.github.io/projects/Robotic_Imitation/index.html)
   - [Motion Imitation](https://github.com/google-research/motion_imitation)
 

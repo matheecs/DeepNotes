@@ -1,0 +1,5 @@
+# odometry-calibaration
+
+> The first test checks how reasonable the odometry is for rotation. I open up rviz, set the frame to `odom`, display the laser scan the robot provides, set the decay time on that topic high (something like 20 seconds), and perform an in-place rotation. Then, I look at how closely the scans match each other on subsequent rotations. Ideally, the scans will fall right on top of each other, but some rotational drift is expected, so I just make sure that the scans aren't off by more than a degree or two.
+
+> The next test is a sanity check on odometry for translation. I'll set up rviz the same way with the robot a few meters away from a wall. Then, I'll drive the robot straight at the wall and look at the thickness of the wall as reported by the aggregated laser scans in rviz. Ideally, the wall should look like a single scan but I just make sure that it doesn't have a thickness of more than a few centimeters. If you drive a meter towards a wall and get scans spread out over half a meter though, something is likely wrong with the odometry.
