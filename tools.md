@@ -9,10 +9,12 @@
 系统资源可视化监控
 - htop
 
-删除 `._*` 开头的所有文件
+删除 `._*` 开头的所有文件，或者 .DS_Store 文件夹
 ```bash
 $ find . -type f -name '._*' -delete
+$ find . -name '.DS_Store' -type f -delete
 ```
+
 
 
 

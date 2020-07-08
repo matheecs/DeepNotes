@@ -10,3 +10,5 @@
   - 默认是时间最短
   - 降低 `max_global_plan_lookahead_dist`，但是降低了避障能力，不推荐
   - 推荐 [Following the Global Plan (Via-Points)](http://wiki.ros.org/teb_local_planner/Tutorials/Following%20the%20Global%20Plan%20%28Via-Points%29)
+
+[ROS中的这些局部导航算法你用过哪些](https://www.guyuehome.com/5500)
