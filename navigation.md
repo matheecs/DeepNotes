@@ -21,3 +21,18 @@
 
 - [pointcloud_to_laserscan](http://wiki.ros.org/pointcloud_to_laserscan)
   - > Converts a 3D Point Cloud into a **2D laser scan**
+
+
+**BUG (2020-7-15)**
+```c++
+//compute odometry in a typical way given the velocities of the robot
+double dt = (current_time - last_time).toSec();
+double delta_x = (vx * cos(th) - vy * sin(th)) * dt;
+double delta_y = (vx * sin(th) + vy * cos(th)) * dt;
+double delta_th = vth * dt;
+
+x += delta_x;
+y += delta_y;
+th += delta_th;
+```
+**速度是相对于当前机身的速度，而非相对于 odom 坐标系!**

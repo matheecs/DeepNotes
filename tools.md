@@ -15,8 +15,11 @@ $ find . -type f -name '._*' -delete
 $ find . -name '.DS_Store' -type f -delete
 ```
 
-
-
-
-
-
+macOS 禁止 `.DS_store` 生成:
+```bash
+$ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```
+使能：
+```bash
+$ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
+```
