@@ -23,3 +23,8 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 ```bash
 $ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 ```
+
+**Doxygen 生成文档**
+```bash
+RECURSIVE              = YES
+```
