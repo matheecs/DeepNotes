@@ -134,3 +134,12 @@ TEB 全部参数：
 - **相关参数**
   - odom_topic
   - map_frame：全局规划的坐标系
+
+
+源码分析：
+
+- include/teb_local_planner/g2o_types：图优化的节点、边
+- include/teb_local_planner/teb_config.h：参数配置
+  - src/teb_config.cpp
+- include/teb_local_planner/optimal_planner.h
+  - src/optimal_planner.cpp
